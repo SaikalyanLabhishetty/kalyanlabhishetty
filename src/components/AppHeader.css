@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+.header {
+ 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.list-left,
+.list-right {
+  
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.list-left {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: 'Sacramento', cursive; 
+}
+
+.list-right {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.list-right > a > button {
+  /* font-family: 'Yusei Magic';  */
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+

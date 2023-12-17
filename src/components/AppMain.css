@@ -1,0 +1,386 @@
+.section-1{
+    color: white;
+    display: flex;
+    height: 80rem;
+    width: 100%;
+    margin: 0 20px 20px 20px;
+}
+.left_container{
+    display: block;
+    width: 18%;
+    flex-direction: column;
+}
+h2{
+    height: 40px;
+}
+.container_1{
+    display: flex;
+    flex-direction: column;
+    height: 33rem;
+    position: fixed;
+    z-index: 10;
+    margin-top: 70px;
+}
+.container_1 > .tabs{
+    display: flex;
+    padding: 5px;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform  0.7s;
+    overflow: hidden;
+    height: 25px;
+}
+.container_1 > .tabs:hover{
+    transform: translateY(-6px);
+}
+.container_1 > .tabs > p {
+    font-size: 15px;
+    opacity: 0.7;
+    margin-left: 2px;
+    overflow-y: hidden;
+}
+.container_1 > h3 {
+    overflow-y: hidden;
+    height: 30px;
+}
+.container_1 > .social_tabs > a{
+    display: flex;
+    cursor: pointer;
+    transition: transform  0.7s;
+    color: white;
+    text-decoration: none;
+    height: 35px;
+    overflow-y: hidden;
+    margin: 5px;
+}
+.container_1 > .social_tabs > a:hover{
+    transform: translateY(-6px);
+}
+.container_1 > .social_tabs > a > p{
+    font-size: 15px;
+    margin-left: 4px;
+    opacity: 0.7;
+    overflow-y: hidden;
+}
+.right_container{  
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.container_2{  
+    display: flex;
+    height: 12rem;
+    width: 60rem;
+    background-image: url('/public/image/bg.gif');
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.container_2 > img {
+    border: 2px solid rgb(80, 80, 80);
+    margin-left: 2%;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.container_2 > .right_container_names { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.container_3{
+    display: flex;
+    flex-direction: column;
+    height: 65rem;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.container_3 > .container_block {
+    display: flex;
+    flex-direction: row;
+    height: 12rem;
+}
+.container_3 > .container_block> .experience_block{
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    width: 12rem;
+    border-radius: 5px;
+    margin-top: 18px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform .7s;
+    cursor: pointer;
+}
+.container_3> .container_block> .experience_block > img{
+    height: 7rem;
+    width: 12rem;
+}
+.experience_block:hover{
+    transform: scale(1.05);
+}
+
+.container_3 > .container_block> .block > a{
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    width: 12rem;
+    border-radius: 5px;
+    margin-top: 18px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform .7s;
+    cursor: pointer;
+}
+.container_3> .container_block> .block > a >img{
+    height: 7rem;
+    width: 12rem;
+}
+
+.block > a:hover{
+    transform: scale(1.05);
+}
+.container_3> .container_block> .block > a > h5 {
+    text-decoration: none;
+    color: white;
+}
+.container_3> .container_block> .block > a > h6 {
+    text-decoration: none;
+    color: white;
+}
+.container_3 > .skill_container  {
+    display: flex;
+    flex-direction: row;
+    height: 15rem;
+}
+.container_3 > .skill_container >.skill_container_block{ 
+    display: flex;
+    flex-direction: column;
+    height: 14rem;
+    width: 10rem;
+    border-radius: 5px;
+    margin-left: 2%;
+    cursor: pointer;
+    background-color: #16161c;
+}
+
+.container_3 > .skill_container > .skill_container_block >p { 
+    display: flex;
+    flex-direction: column;
+    background-color: #16161c;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(152, 152, 152);
+    padding: 6px;
+}
+
+.container_3 > .skill_container >.skill_container_block> h3 { 
+    background-color: #16161c;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(181, 181, 181);
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 22px;
+    overflow: hidden;
+}
+.container_3 > .certificate_container{
+    display: flex;
+    flex-direction: row;
+    height: 16rem;
+}
+.container_3 > .certificate_container > .certificate_container_block {
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    width: 15rem;
+    border-radius: 5px;
+    margin-left: 2%;
+    cursor: pointer;
+    background-color: #16161c;
+}
+
+
+.container_3 > .certificate_container > .certificate_container_block > a > h5{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.container_3> .certificate_container> .certificate_container_block > a >img{
+    height: 8rem;
+    width: 15rem;
+}
+
+.container_3 > .certificate_container > .certificate_container_block > a > h6{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .section-1{
+        color: white;
+        display: flex;
+        height: 80rem;
+        width: 100%;
+        margin: 0 20px 20px 20px;
+    }
+    .left_container{
+        display: none;
+        width: 0;
+    }
+    .container_1{
+        display: none;
+    }
+    .right_container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .container_2{
+        display: flex;
+        height: 6rem;
+        width: 30rem;
+        background-image: url('/public/image/bg.gif');
+        background-size: 100% 100%;
+        background-repeat: repeat-y;
+        align-items: center;
+        margin-top: 70px;
+        z-index: 10;
+        margin-left: -10px;
+    }
+    .container_2 > img {
+        border: 2px solid rgb(80, 80, 80);
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+    
+    .container_2 > .right_container_names {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    .container_3{
+        display: flex;
+        flex-direction: column;
+        height: 65rem;
+        margin-top: 20px;
+        z-index: 10;
+    }
+    .container_3 > .container_block {
+        display: flex;
+        flex-direction: row;
+        height: 12rem;
+    }
+    .container_3 > .container_block> .experience_block{
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        width: 9rem;
+        border-radius: 5px;
+        margin-top: 18px;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 10px;
+        transition: transform .7s;
+        cursor: pointer;
+    }
+    .container_3 > .container_block> .experience_block > h5{
+        font-size: 10px;
+    }
+    .container_3 > .container_block> .experience_block > h6{
+        font-size: 10px;
+    }
+    .container_3 > .container_block> .block > a{
+        display: flex;
+        flex-direction: column;
+        height: 9rem;
+        width: 6rem;
+        border-radius: 5px;
+        margin-top: 18px;
+        align-items: center;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: transform .7s;
+        cursor: pointer;
+    }
+    .container_3> .container_block> .block > a >img{
+        height: 7rem;
+        width: 12rem;
+    }
+    
+    .block > a:hover{
+        transform: scale(1.05);
+    }
+    .container_3> .container_block> .block > a > h5 {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    .container_3> .container_block> .block > a > h6 {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    .container_3 > .skill_container >.skill_container_block{
+        display: flex;
+        flex-direction: column;
+        height: 14rem;
+        width: 10rem;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #16161c;
+    }
+    .container_3 > .skill_container >.skill_container_block> h3{
+        margin-left: 0;
+    }
+    .container_3 > .certificate_container > .certificate_container_block {
+        display: flex;
+        flex-direction: column;
+        height: 9rem;
+        width: 11rem;
+        border-radius: 5px;
+        margin-left: 2%;
+        cursor: pointer;
+        background-color: #16161c;
+    }
+    
+    .container_3 > .certificate_container > .certificate_container_block > a > h5{
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .container_3> .certificate_container> .certificate_container_block > a >img{
+        height: 4rem;
+        width: 9rem;
+    }
+    
+    .container_3 > .certificate_container > .certificate_container_block > a > h6{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    
+}
+
