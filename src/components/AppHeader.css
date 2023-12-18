@@ -47,6 +47,39 @@
   border: none;
 }
 
+@media (max-width:768px){
+  .header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+  .list-left {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Sacramento', cursive; 
+  }
+  .list-right {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .list-right > a > button {
+    /* font-family: 'Yusei Magic';  */
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+  }
+}
+
 
 
 
