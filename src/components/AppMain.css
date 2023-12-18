@@ -94,6 +94,7 @@ h2{
     flex-direction: column;
     margin-left: 1rem;
 }
+
 .container_3{
     display: flex;
     flex-direction: column;
@@ -251,6 +252,7 @@ h2{
         display: flex;
         flex-direction: column;
         margin-left: 0px;
+        font-size: small;
     }
     .container_2{
         display: flex;
@@ -270,7 +272,11 @@ h2{
         width: 4rem;
         border-radius: 50%;
     }
-    
+    .container_2 > .right_container_names > li{
+        font-size:15px;
+        font-weight:400;
+        list-style:none
+    }
     .container_2 > .right_container_names {
         display: flex;
         flex-direction: column;
@@ -282,6 +288,7 @@ h2{
         height: 65rem;
         margin-top: 20px;
         z-index: 10;
+        margin-left: -1px;
     }
     .container_3 > .container_block {
         display: flex;
@@ -316,7 +323,7 @@ h2{
         margin-top: 18px;
         align-items: center;
         border-radius: 5px;
-        margin-left: 10px;
+        margin-left: 20px;
         margin-right: 10px;
         transition: transform .7s;
         cursor: pointer;
