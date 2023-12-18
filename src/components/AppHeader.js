@@ -33,7 +33,7 @@ const AppHeader = () => {
         <li>kalyan labhishetty</li>
       </ul>
       <ul className='list-right'>
-        <a href="./image/kalyan_Resume.pdf" download="Resume" target='_blank' rel='noreferrer'>
+        <a href="./image/Saikalyan_resume.pdf" download="Resume" target='_blank' rel='noreferrer'>
         <button onMouseEnter={handlehover} onMouseLeave={disablehover} style={styles_download}>Resume <Download size={17} style={styles_download} /></button>
         </a>
         <a href='https://mail.google.com/mail/u/0/?fs=1&to=your.labhishettysaikalyan@gmail.com&tf=cm' target='_blank' rel="noopener noreferrer">
